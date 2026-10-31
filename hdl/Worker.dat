@@ -1,0 +1,5 @@
+COMMENT Sample worker and name lines (test data only)
+METADATA|Worker|SourceSystemOwner|SourceSystemId|EffectiveStartDate|PersonNumber|StartDate|ActionCode
+MERGE|Worker|LEGACY|W1001|2026/01/05|1001|2026/01/05|HIRE
+METADATA|PersonName|SourceSystemOwner|SourceSystemId|PersonId(SourceSystemId)|EffectiveStartDate|LegislationCode|NameType|FirstName|LastName
+MERGE|PersonName|LEGACY|W1001_NAME|W1001|2026/01/05|IN|GLOBAL|Asha|Verma
